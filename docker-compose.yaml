@@ -27,7 +27,7 @@ services:
     ports:
       - '3000:3000'
     volumes:
-      - ./culturelive:/app
+      - ./culturelive/src:/app/src
     depends_on:
       - database
     restart: always

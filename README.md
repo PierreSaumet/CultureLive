@@ -26,6 +26,8 @@ This project provides:
     docker compose build && docker compose up
 ```
 
+4. Wait untiil the data transfer is complete
+
 **This will start:**
 
     PostgreSQL with the Sakila database
