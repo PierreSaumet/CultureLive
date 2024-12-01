@@ -34,37 +34,37 @@ This project provides:
 
 ## Project Structure
 
-    culturelive
-    ├── src
-    │   ├── app.module.ts
-    │   ├── app.controller.ts 
-    │   ├── app.service.ts
-    │   ├── customer
-    │   │   ├── dto
-    │   │   │   ├── create-customer.dto.ts
-    │   │   │   └── update-customer.dto.ts
-    │   │   ├── customer.controller.ts
-    │   │   ├── customer.entity.ts
-    │   │   ├── customer.module.ts
-    │   │   ├── customer.service.ts
-    │   ├── film
-    │   │   ├── film.entity.ts
-    │   │   ├── film.module.ts
-    │   │   ├── film.service.ts
-    │   ├── rental
-    │   │   ├── dto
-    │   │   │   ├── create-rental.dto.ts
-    │   │   ├── rental.controller.ts
-    │   │   ├── rental.entity.ts
-    │   │   ├── rental.module.ts
-    │   │   ├── rental.service.ts
-    │   ├── task
-    │   │   ├── task.controller.ts
-    │   │   ├── film.module.ts
-    │   │   ├── task.service.ts
-    │   └── main.ts                
-    docker-compose.yml
-    README.md    
+culturelive
+├── src
+│   ├── app.module.ts
+│   ├── app.controller.ts 
+│   ├── app.service.ts
+│   ├── customer
+│   │   ├── dto
+│   │   │   ├── create-customer.dto.ts
+│   │   │   └── update-customer.dto.ts
+│   │   ├── customer.controller.ts
+│   │   ├── customer.entity.ts
+│   │   ├── customer.module.ts
+│   │   ├── customer.service.ts
+│   ├── film
+│   │   ├── film.entity.ts
+│   │   ├── film.module.ts
+│   │   ├── film.service.ts
+│   ├── rental
+│   │   ├── dto
+│   │   │   ├── create-rental.dto.ts
+│   │   ├── rental.controller.ts
+│   │   ├── rental.entity.ts
+│   │   ├── rental.module.ts
+│   │   ├── rental.service.ts
+│   ├── task
+│   │   ├── task.controller.ts
+│   │   ├── film.module.ts
+│   │   ├── task.service.ts
+│   └── main.ts                
+docker-compose.yml
+README.md    
 
 
 ## Available Endpoints
