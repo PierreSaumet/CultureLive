@@ -47,7 +47,7 @@ export class TaskService {
   /*
     Cron job which display a message for every rental at J-5 rental date
   */
-  @Cron(CronExpression.EVERY_30_SECONDS, {
+  @Cron(CronExpression.EVERY_DAY_AT_NOON, {
     name: 'EmailJ5',
   })
   async handleEmailReminderJ5() {
@@ -71,7 +71,7 @@ export class TaskService {
   /*
     Cron job which display a message for every rental at J-5 rental date
   */
-  @Cron(CronExpression.EVERY_30_SECONDS, {
+  @Cron(CronExpression.EVERY_DAY_AT_NOON, {
     name: 'EmailJ3',
   })
   async handleEmailReminderJ3() {
